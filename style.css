@@ -24,11 +24,46 @@
 }
 .parent{
     display: flex;
+    margin: 60px;
 }
 .child{
-    margin: 80px;
+   padding: 40px;
     
 }
 .heading{
     padding-top: 20px;
+}
+.pray-img{
+    height: 300px;
+}
+.content-center{
+    text-align: center;
+}
+.donate-img{
+    height: 50px;
+    width: 50px;
+}
+.parent-div{
+    display: flex;
+    margin:30px 200px;
+
+}
+.child-div{
+
+}
+.one-child{
+    background-color: rgb(235, 190, 108);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 220px;
+
+}
+.pray-flex{
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+}
+.pray-flex img{
+    border-radius: 15px;
 }
