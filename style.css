@@ -54,16 +54,50 @@
 .one-child{
     background-color: rgb(235, 190, 108);
     margin: 20px;
-    padding: 10px;
+    padding:40px 10px;
     border-radius: 10px;
-    height: 220px;
+    
 
 }
 .pray-flex{
     display: flex;
-    margin: 30px;
-    justify-content: space-around;
+    justify-content: center;
 }
 .pray-flex img{
     border-radius: 15px;
+    margin: 20px;
 }
+
+.take-love{
+    display: flex;
+    justify-content:center;
+}
+.child-love{
+    width: 300px;
+    margin: 10px;
+    border: 2px solid gainsboro;
+    margin: 20px;
+}
+.child-love img{
+    width: 300px;
+}
+.child-love h2,
+.child-love p{
+    padding: 10px;
+
+}
+.child-love button{
+      margin: 10px;
+      padding: 10px;
+      border: none;
+      border-bottom: 3px solid red;
+}
+footer{
+    background-color: rgb(24, 21, 21);
+    color: white;
+    font: italic;
+    padding: 15px;
+}
+
+
+    
